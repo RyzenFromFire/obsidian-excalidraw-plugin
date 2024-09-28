@@ -860,7 +860,7 @@ export class EmbeddedFilesLoader {
         fontDef = await getCSSFontDefinition(7);
         break;
       case "Comic Shanns":
-        fontDef = await getCSSFontDefinition(8);
+        fontDef = await getCSSFontDefinition(3); // force revert to Cascadia
         break;
       case "Liberation Sans":
         fontDef = await getCSSFontDefinition(9);
